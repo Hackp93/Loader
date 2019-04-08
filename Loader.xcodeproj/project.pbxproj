@@ -14,6 +14,8 @@
 		773B6CFF225BC5D600230457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773B6CFD225BC5D600230457 /* LaunchScreen.storyboard */; };
 		773B6D0A225BC5D600230457 /* LoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B6D09225BC5D600230457 /* LoaderTests.swift */; };
 		773B6D15225BC5D600230457 /* LoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B6D14225BC5D600230457 /* LoaderUITests.swift */; };
+		773B6D26225BC69C00230457 /* Loader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773B6D25225BC69C00230457 /* Loader.xib */; };
+		773B6D2A225BCF0D00230457 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B6D29225BCF0D00230457 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		773B6D10225BC5D600230457 /* LoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		773B6D14225BC5D600230457 /* LoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderUITests.swift; sourceTree = "<group>"; };
 		773B6D16225BC5D600230457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B6D25225BC69C00230457 /* Loader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Loader.xib; sourceTree = "<group>"; };
+		773B6D29225BCF0D00230457 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				773B6CF4225BC5D500230457 /* AppDelegate.swift */,
 				773B6CF6225BC5D500230457 /* ViewController.swift */,
+				773B6D22225BC5FE00230457 /* Loader */,
 				773B6CF8225BC5D500230457 /* Main.storyboard */,
 				773B6CFB225BC5D600230457 /* Assets.xcassets */,
 				773B6CFD225BC5D600230457 /* LaunchScreen.storyboard */,
@@ -123,6 +128,15 @@
 				773B6D16225BC5D600230457 /* Info.plist */,
 			);
 			path = LoaderUITests;
+			sourceTree = "<group>";
+		};
+		773B6D22225BC5FE00230457 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				773B6D25225BC69C00230457 /* Loader.xib */,
+				773B6D29225BCF0D00230457 /* Loader.swift */,
+			);
+			path = Loader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			files = (
 				773B6CFF225BC5D600230457 /* LaunchScreen.storyboard in Resources */,
 				773B6CFC225BC5D600230457 /* Assets.xcassets in Resources */,
+				773B6D26225BC69C00230457 /* Loader.xib in Resources */,
 				773B6CFA225BC5D500230457 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +273,7 @@
 			files = (
 				773B6CF7225BC5D500230457 /* ViewController.swift in Sources */,
 				773B6CF5225BC5D500230457 /* AppDelegate.swift in Sources */,
+				773B6D2A225BCF0D00230457 /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

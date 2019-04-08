@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func onClickShowLoader(_ sender : UIButton){
+        showLoader(with: "Hello There! If you are seeing animation this means loader is working")
+        
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: false, block: {
+            timer in
+            self.hideLoader()
+        })
+    }
 
 
 }
